@@ -1,0 +1,56 @@
+header {
+    border: outset;
+    background-image: url(images/background\ image.jpg);
+    background-blend-mode: difference;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+
+    color: antiquewhite;
+}
+
+body {
+
+    border: outset;
+    background-image: url(images/background1.jpg);
+
+    color: antiquewhite;
+}
+
+#shoes {
+    border: thick;
+    color: aqua;
+    display: grid;
+    place-items: center;
+}
+
+#K {
+
+    text-align: center;
+}
+
+#promos {
+
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+
+@media (max-width: 760) {
+    header, article #aboutus, article #products, article #promos, article #contactus{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
